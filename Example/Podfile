@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MNExpandableCell_Example' do
+  pod 'MNExpandableCell', :path => '../'
+
+  target 'MNExpandableCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
