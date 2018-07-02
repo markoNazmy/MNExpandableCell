@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class MNExpandableTabelView: UIView {
+public class MNExpandableTableView: UIView {
     
     @IBOutlet weak var tableViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet public weak var tableView: MNTableView!
@@ -47,7 +47,7 @@ public class MNExpandableTabelView: UIView {
     }
 }
 
-extension MNExpandableTabelView: UITableViewDataSource, UITableViewDelegate {
+extension MNExpandableTableView: UITableViewDataSource, UITableViewDelegate {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return MNExpandableCellUIModelArray.count
     }

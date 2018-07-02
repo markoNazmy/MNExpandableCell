@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MNExpandableTabelView" customModule="MNExpandableCell">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MNExpandableTableView" customModule="MNExpandableCell">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="9K3-t6-TD4"/>
                 <outlet property="tableView" destination="jeF-ZT-DBk" id="djh-cU-2kr"/>

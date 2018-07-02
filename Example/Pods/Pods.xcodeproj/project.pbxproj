@@ -19,7 +19,7 @@
 		260EDA23D53BF0417878D608C88F5692 /* MNExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EACBC59D82E94F1553A44361A3B410 /* MNExpandableCell.swift */; };
 		279824115806EC6F62BEF70FE745D22B /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */; };
 		2E6014DFBBD9D4B39CD85EFEAB220619 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */; };
-		33924D8A8B0B32B80469739D64E5A69E /* MNExpandableTabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA8F08A654169FEABDC3AC2BB47EF1 /* MNExpandableTabelView.xib */; };
+		33924D8A8B0B32B80469739D64E5A69E /* MNExpandableTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA8F08A654169FEABDC3AC2BB47EF1 /* MNExpandableTableView.xib */; };
 		34A0CF2EFEA8AD593ABFE907A62382B2 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */; };
 		369A16AF69F9DB6F9B539D88FBB85137 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */; };
 		385A58810EB1A21BC84E934661ADF596 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */; };
@@ -47,7 +47,7 @@
 		B69AE66E582A2EF32EA7BCAFD86F43BA /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */; };
 		B847F738F7CF15E3DF5BD34868FD1C36 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */; };
 		B922FD850982A52C9FA5D802E586C437 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */; };
-		BE2F44F05AF44BE77EA68DCE97610E2A /* MNExpandableTabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78728259049EC83364A04B84B18088D6 /* MNExpandableTabelView.swift */; };
+		BE2F44F05AF44BE77EA68DCE97610E2A /* MNExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78728259049EC83364A04B84B18088D6 /* MNExpandableTableView.swift */; };
 		D20DF87BB6357B10CD091852A21A7849 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */; };
 		D6D004FAF94A1167E430F31C89848E91 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */; };
 		D7CC4C01C78113A7A2634398DD91B0C3 /* Pods-MNExpandableCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6B6C26F2FD803615EDEC4C912DDBC /* Pods-MNExpandableCell_Example-dummy.m */; };
@@ -106,7 +106,7 @@
 		1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		17F68627029AD0997A55B1BD770C1085 /* Pods-MNExpandableCell_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MNExpandableCell_Tests-resources.sh"; sourceTree = "<group>"; };
-		1860755E6A5B12DECF47ECA7AFF996DD /* Pods_MNExpandableCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MNExpandableCell_Example.framework; path = "Pods-MNExpandableCell_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860755E6A5B12DECF47ECA7AFF996DD /* Pods_MNExpandableCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNExpandableCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		1F0BF1F8ABFEE153066E1924349831C3 /* Pods-MNExpandableCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MNExpandableCell_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2057A81225328642D0E49115C61C8897 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		3776E3D131A560C888744F1EFA33DF09 /* Pods-MNExpandableCell_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MNExpandableCell_Tests.modulemap"; sourceTree = "<group>"; };
 		3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		3AFA8F08A654169FEABDC3AC2BB47EF1 /* MNExpandableTabelView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MNExpandableTabelView.xib; path = MNExpandableCell/Assets/MNExpandableTabelView.xib; sourceTree = "<group>"; };
+		3AFA8F08A654169FEABDC3AC2BB47EF1 /* MNExpandableTableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MNExpandableTableView.xib; path = MNExpandableCell/Assets/MNExpandableTableView.xib; sourceTree = "<group>"; };
 		3DB090FC5E5F3B052B3684E6DF0D4EF8 /* Pods-MNExpandableCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNExpandableCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F82113F85D1EDF04B16B66540D7F5D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42F255FFC232367FD332083DAB941A6C /* Pods-MNExpandableCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNExpandableCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		54F4868CC5DDB583941256F4F528774F /* Pods-MNExpandableCell_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MNExpandableCell_Example-resources.sh"; sourceTree = "<group>"; };
 		55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		5EDADCB82235A498F31D991683CA6701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDADCB82235A498F31D991683CA6701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		636E6190BF0F62E09A7517C189578700 /* MNExpandableCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MNExpandableCell.xib; path = MNExpandableCell/Assets/MNExpandableCell.xib; sourceTree = "<group>"; };
@@ -141,27 +141,27 @@
 		645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		746C6C7B65EDACE22C83463742C6B9D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75F6B6C26F2FD803615EDEC4C912DDBC /* Pods-MNExpandableCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MNExpandableCell_Example-dummy.m"; sourceTree = "<group>"; };
-		776FC94CEFFE0C428046245819690EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		78728259049EC83364A04B84B18088D6 /* MNExpandableTabelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MNExpandableTabelView.swift; path = MNExpandableCell/Classes/MNExpandableTabelView.swift; sourceTree = "<group>"; };
+		776FC94CEFFE0C428046245819690EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		78728259049EC83364A04B84B18088D6 /* MNExpandableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MNExpandableTableView.swift; path = MNExpandableCell/Classes/MNExpandableTableView.swift; sourceTree = "<group>"; };
 		7BB29B68FE4B44EA19F00E3168197270 /* Pods-MNExpandableCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MNExpandableCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		82B59A89530FC4841D9C67353C12593F /* ResourceBundle-MNExpandableCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MNExpandableCell-Info.plist"; sourceTree = "<group>"; };
 		8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		917C91CCAF1FDF4C66EE144619DFF331 /* Pods-MNExpandableCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MNExpandableCell_Example-umbrella.h"; sourceTree = "<group>"; };
 		9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9745BCFADB17B1584C94246DC66DBC5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9745BCFADB17B1584C94246DC66DBC5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		991A8413D0F386275975D29E1B7113A4 /* Pods-MNExpandableCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNExpandableCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAC150E06D647605BAA5648473B05726 /* MNExpandableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MNExpandableCell.xcconfig; sourceTree = "<group>"; };
-		ABE557CCEB4FBB5F2F364CF8EE4F6B19 /* MNExpandableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MNExpandableCell.framework; path = MNExpandableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE557CCEB4FBB5F2F364CF8EE4F6B19 /* MNExpandableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MNExpandableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		B5C9CEB30AA71EB58B5CD53321954DE0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		B5F2670746B8B79812603D13843642EF /* Pods-MNExpandableCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MNExpandableCell_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
-		B8D0C4374F549E39AA70A6EE423102EF /* MNExpandableCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MNExpandableCell.bundle; path = "MNExpandableCell-MNExpandableCell.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBFF6A9E70F0C42E4C3D90EC9B3A35C2 /* Pods_MNExpandableCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MNExpandableCell_Tests.framework; path = "Pods-MNExpandableCell_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D0C4374F549E39AA70A6EE423102EF /* MNExpandableCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNExpandableCell.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFF6A9E70F0C42E4C3D90EC9B3A35C2 /* Pods_MNExpandableCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNExpandableCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		EEC1C0925B7A75C47F90DA4CD473E0A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E1E2C17015EE8439617A8D00AABA27 /* Pods-MNExpandableCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MNExpandableCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		F518F9221B48E550A9435C22069674B8 /* MNExpandableCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MNExpandableCell.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F518F9221B48E550A9435C22069674B8 /* MNExpandableCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MNExpandableCell.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F8A1A32A8FEC52B050A705EF8B4BC9D4 /* Pods-MNExpandableCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MNExpandableCell_Example.modulemap"; sourceTree = "<group>"; };
 		FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		FFBE104F4051A13E66A7721DEA1FC317 /* Pods-MNExpandableCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MNExpandableCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -258,7 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				636E6190BF0F62E09A7517C189578700 /* MNExpandableCell.xib */,
-				3AFA8F08A654169FEABDC3AC2BB47EF1 /* MNExpandableTabelView.xib */,
+				3AFA8F08A654169FEABDC3AC2BB47EF1 /* MNExpandableTableView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				D8EACBC59D82E94F1553A44361A3B410 /* MNExpandableCell.swift */,
-				78728259049EC83364A04B84B18088D6 /* MNExpandableTabelView.swift */,
+				78728259049EC83364A04B84B18088D6 /* MNExpandableTableView.swift */,
 				78DF7538BAACE828FB08F498BC91A688 /* Pod */,
 				3BC13B97CA48161AD95B2847A2A293EF /* Resources */,
 				E83E9234F2696ECCCEC57F917CA57EC7 /* Support Files */,
@@ -398,7 +398,6 @@
 				45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */,
 				432313F4618A6E0D54282078B6A48A1B /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -607,7 +606,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				742E77C1456ABF2E4D3DAA370E7C61DC /* MNExpandableCell.xib in Resources */,
-				33924D8A8B0B32B80469739D64E5A69E /* MNExpandableTabelView.xib in Resources */,
+				33924D8A8B0B32B80469739D64E5A69E /* MNExpandableTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +669,7 @@
 			files = (
 				82E1D85D7D142DB3A3D7FF09518D5759 /* MNExpandableCell-dummy.m in Sources */,
 				260EDA23D53BF0417878D608C88F5692 /* MNExpandableCell.swift in Sources */,
-				BE2F44F05AF44BE77EA68DCE97610E2A /* MNExpandableTabelView.swift in Sources */,
+				BE2F44F05AF44BE77EA68DCE97610E2A /* MNExpandableTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

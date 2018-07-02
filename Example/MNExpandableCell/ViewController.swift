@@ -12,7 +12,7 @@ import SnapKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var tabelView: MNExpandableTabelView!
+    @IBOutlet weak var tabelView: MNExpandableTableView!
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
