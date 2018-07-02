@@ -3,21 +3,22 @@
   "version": "0.1.0",
   "summary": "A short description of MNExpandableCell.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/marko.naeem@vodafone.com/MNExpandableCell",
+  "homepage": "https://github.com/markoNazmy/MNExpandableCell",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "marko.naeem@vodafone.com": "marko.naeem@vodafone.com"
+    "markoNazmy": "markoNazmy"
   },
   "source": {
-    "path": "."
+    "git": "https://github.com/markoNazmy/MNExpandableCell.git",
+    "tag": "0.1.0"
   },
-  "source_files": "MNExpandableCell/Classes/**/*",
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "MNExpandableCell/Classes/**/*",
   "resource_bundles": {
     "MNExpandableCell": [
       "MNExpandableCell/Assets/*.xib"
@@ -25,7 +26,7 @@
   },
   "dependencies": {
     "SnapKit": [
-      "~> 4.0.0"
+
     ]
   }
 }
