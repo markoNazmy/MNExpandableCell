@@ -11,7 +11,7 @@ import UIKit
 public class MNExpandableTabelView: UIView {
     
     @IBOutlet weak var tableViewHeightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var tableView: MNTableView!
+    @IBOutlet public weak var tableView: MNTableView!
     @IBOutlet weak var contentView: UIView!
     
     private let nibFileName = "MNExpandableTabelView"
