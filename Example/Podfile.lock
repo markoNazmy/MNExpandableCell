@@ -1,5 +1,5 @@
 PODS:
-  - MNExpandableCell (0.1.2):
+  - MNExpandableCell (0.1.4):
     - SnapKit
   - SnapKit (4.0.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MNExpandableCell: 42eb4cac3cae813611799522376ef55382b03d56
+  MNExpandableCell: a2ac691eb4e5487691e310fc4e6d4d04d2987c56
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
 PODFILE CHECKSUM: d49cd28a958573d5c6d5a3e7689afd2b98b57b7a

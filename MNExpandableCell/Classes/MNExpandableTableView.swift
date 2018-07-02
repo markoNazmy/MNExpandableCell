@@ -14,12 +14,12 @@ public class MNExpandableTableView: UIView {
     @IBOutlet public weak var tableView: MNTableView!
     @IBOutlet weak var contentView: UIView!
     
-    private let nibFileName = "MNExpandableTabelView"
+    private let nibFileName = "MNExpandableTableView"
     var MNExpandableCellUIModelArray: [MNExpandableCellUIModel] = []
 
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        MNExpandableTabelViewBundle.bundle()?.loadNibNamed(nibFileName, owner: self, options: nil)
+        MNExpandableTableViewBundle.bundle()?.loadNibNamed(nibFileName, owner: self, options: nil)
         self.addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
@@ -36,7 +36,7 @@ public class MNExpandableTableView: UIView {
         self.MNExpandableCellUIModelArray = MNExpandableCellUIModelArray
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.register(UINib(nibName: MNExpandableCell.MNExpandableCellNibName, bundle: MNExpandableTabelViewBundle.bundle()), forCellReuseIdentifier: MNExpandableCell.MNExpandableCellNibName)
+        tableView.register(UINib(nibName: MNExpandableCell.MNExpandableCellNibName, bundle: MNExpandableTableViewBundle.bundle()), forCellReuseIdentifier: MNExpandableCell.MNExpandableCellNibName)
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 100
         tableView.contentSizeChanged = {[weak self] h in
@@ -76,7 +76,7 @@ public class MNTableView: UITableView {
     }
 }
 
-@objc public class  MNExpandableTabelViewBundle: NSObject {
+@objc public class  MNExpandableTableViewBundle: NSObject {
     private static let bundleName = "MNExpandableCell"
     private static let bundleExtension = "bundle"
     
@@ -90,7 +90,7 @@ public class MNTableView: UITableView {
         return Bundle(identifier: bundleIdentifier)
     }
     @objc public static func customBundle() -> Bundle? {
-        guard let bundleString : URL =  MNExpandableTabelViewBundle.bundle()?.url(forResource: "Base", withExtension: "lproj") else {
+        guard let bundleString : URL =  MNExpandableTableViewBundle.bundle()?.url(forResource: "Base", withExtension: "lproj") else {
             return nil
         }
         let bundle = Bundle.init(url: bundleString)
