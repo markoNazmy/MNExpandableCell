@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MNExpandableCell
 //
-//  Created by marko.naeem@vodafone.com on 06/07/2018.
-//  Copyright (c) 2018 marko.naeem@vodafone.com. All rights reserved.
+//  Created by markoNazmy on 06/07/2018.
+//  Copyright (c) 2018 markoNazmy. All rights reserved.
 //
 
 import UIKit

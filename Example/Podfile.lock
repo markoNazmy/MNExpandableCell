@@ -1,0 +1,23 @@
+PODS:
+  - MNExpandableCell (0.1.0):
+    - SnapKit (~> 4.0.0)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - MNExpandableCell (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MNExpandableCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MNExpandableCell: 18b03e5465c4e43a896af58df0f87666008eadbc
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: d49cd28a958573d5c6d5a3e7689afd2b98b57b7a
+
+COCOAPODS: 1.5.2

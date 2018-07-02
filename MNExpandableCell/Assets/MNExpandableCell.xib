@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MNExpandableCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MNExpandableCell" rowHeight="141" id="IDA-Yo-uJD" customClass="MNExpandableCell" customModule="MNExpandableCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="471" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IDA-Yo-uJD" id="VJz-mD-7Zb">
+                <rect key="frame" x="0.0" y="0.0" width="471" height="140.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHB-rr-nFR" userLabel="BodyView">
+                        <rect key="frame" x="0.0" y="93" width="471" height="47.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="471" placeholderIntrinsicHeight="93" translatesAutoresizingMaskIntoConstraints="NO" id="XwE-9c-S0h" userLabel="HeaderView">
+                        <rect key="frame" x="0.0" y="0.0" width="471" height="93"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <gestureRecognizers/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="gHB-rr-nFR" secondAttribute="bottom" id="5GS-Ym-1iq"/>
+                    <constraint firstItem="gHB-rr-nFR" firstAttribute="leading" secondItem="VJz-mD-7Zb" secondAttribute="leading" id="dwR-kL-gUa"/>
+                    <constraint firstAttribute="trailing" secondItem="gHB-rr-nFR" secondAttribute="trailing" id="fgq-sv-rSm"/>
+                    <constraint firstItem="XwE-9c-S0h" firstAttribute="leading" secondItem="VJz-mD-7Zb" secondAttribute="leading" id="gRq-YM-pbi"/>
+                    <constraint firstItem="XwE-9c-S0h" firstAttribute="top" secondItem="VJz-mD-7Zb" secondAttribute="top" id="hBB-Vc-3LR"/>
+                    <constraint firstItem="gHB-rr-nFR" firstAttribute="top" secondItem="XwE-9c-S0h" secondAttribute="bottom" id="hXC-bo-z5U"/>
+                    <constraint firstAttribute="trailing" secondItem="XwE-9c-S0h" secondAttribute="trailing" id="kg2-aP-N3t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <connections>
+                <outlet property="bodyView" destination="gHB-rr-nFR" id="Uc6-Mm-cAw"/>
+                <outlet property="headerView" destination="XwE-9c-S0h" id="Re7-ON-zDg"/>
+            </connections>
+            <point key="canvasLocation" x="-13.5" y="24.5"/>
+        </tableViewCell>
+    </objects>
+</document>

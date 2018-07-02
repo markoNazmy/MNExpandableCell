@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MNExpandableTabelView" customModule="MNExpandableCell">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="9K3-t6-TD4"/>
+                <outlet property="tableView" destination="jeF-ZT-DBk" id="djh-cU-2kr"/>
+                <outlet property="tableViewHeightConstraint" destination="CbH-02-48g" id="bav-VE-hat"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="477"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLW-Ul-JqB">
+                    <rect key="frame" x="0.0" y="0.0" width="405" height="477"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jeF-ZT-DBk" customClass="MNTableView" customModule="MNExpandableCell" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="405" height="477"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="477" id="CbH-02-48g"/>
+                            </constraints>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="jeF-ZT-DBk" firstAttribute="leading" secondItem="mLW-Ul-JqB" secondAttribute="leading" id="2AV-Lr-BYh"/>
+                        <constraint firstAttribute="bottom" secondItem="jeF-ZT-DBk" secondAttribute="bottom" id="5Dd-u4-70s"/>
+                        <constraint firstAttribute="trailing" secondItem="jeF-ZT-DBk" secondAttribute="trailing" id="Hrl-az-iSU"/>
+                        <constraint firstItem="jeF-ZT-DBk" firstAttribute="top" secondItem="mLW-Ul-JqB" secondAttribute="top" id="aTG-ic-Q5f"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mLW-Ul-JqB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Ly-fQ-P9z"/>
+                <constraint firstAttribute="bottom" secondItem="mLW-Ul-JqB" secondAttribute="bottom" id="T7I-0r-P9w"/>
+                <constraint firstItem="mLW-Ul-JqB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UCk-mn-NDP"/>
+                <constraint firstAttribute="trailing" secondItem="mLW-Ul-JqB" secondAttribute="trailing" id="ies-Ft-ekG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="48.5" y="-16.5"/>
+        </view>
+    </objects>
+</document>

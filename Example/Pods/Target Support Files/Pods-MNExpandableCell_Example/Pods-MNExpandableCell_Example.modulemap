@@ -1,0 +1,6 @@
+framework module Pods_MNExpandableCell_Example {
+  umbrella header "Pods-MNExpandableCell_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

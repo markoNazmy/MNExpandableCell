@@ -1,5 +1,5 @@
 import XCTest
-import MNExpandableCell
+//import MNExpandableCell
 
 class Tests: XCTestCase {
     

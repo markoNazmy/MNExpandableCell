@@ -1,0 +1,6 @@
+framework module MNExpandableCell {
+  umbrella header "MNExpandableCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

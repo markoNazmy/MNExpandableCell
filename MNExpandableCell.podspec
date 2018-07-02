@@ -21,22 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/marko.naeem@vodafone.com/MNExpandableCell'
+  s.homepage         = 'https://github.com/markoNazmy/MNExpandableCell'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'marko.naeem@vodafone.com' => 'marko.naeem@vodafone.com' }
-  s.source           = { :git => 'https://github.com/marko.naeem@vodafone.com/MNExpandableCell.git', :tag => s.version.to_s }
+  s.author           = { 'markoNazmy' => 'markoNazmy' }
+  s.source           = { :git => 'https://github.com/markoNazmy/MNExpandableCell.git', :tag => s.version.to_s }
+#s.source       = { :path => '.' }
+#s.source_files  = "Source/**/*.swift"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MNExpandableCell/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MNExpandableCell' => ['MNExpandableCell/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MNExpandableCell' => ['MNExpandableCell/Assets/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SnapKit', '~> 4.0.0'
+  
+
 end

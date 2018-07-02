@@ -1,6 +1,6 @@
 # MNExpandableCell
 
-[![CI Status](https://img.shields.io/travis/marko.naeem@vodafone.com/MNExpandableCell.svg?style=flat)](https://travis-ci.org/marko.naeem@vodafone.com/MNExpandableCell)
+[![CI Status](https://img.shields.io/travis/markoNazmy/MNExpandableCell.svg?style=flat)](https://travis-ci.org/markoNazmy/MNExpandableCell)
 [![Version](https://img.shields.io/cocoapods/v/MNExpandableCell.svg?style=flat)](https://cocoapods.org/pods/MNExpandableCell)
 [![License](https://img.shields.io/cocoapods/l/MNExpandableCell.svg?style=flat)](https://cocoapods.org/pods/MNExpandableCell)
 [![Platform](https://img.shields.io/cocoapods/p/MNExpandableCell.svg?style=flat)](https://cocoapods.org/pods/MNExpandableCell)
@@ -22,7 +22,7 @@ pod 'MNExpandableCell'
 
 ## Author
 
-marko.naeem@vodafone.com, marko.naeem@vodafone.com
+markoNazmy, markoNazmy
 
 ## License
 
