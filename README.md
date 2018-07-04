@@ -70,6 +70,18 @@ public class MNExpandableCellUIModel {
      - Parameter collapseCompletion: (()->())? this clouser to be called after finishing the collapsing animation
      - Parameter expandingTimeInterval: TimeInterval this is duration for each cell animation
 
+## warning
+if you want your clousers to be run on main theard to avoid crashes put your clouser like this 
+```swift
+
+let clouser = {
+    DispatchQueue.main.async {
+        // put your code here like UI code      
+    }
+}
+```
+
+
 ## Author
 
 Marko Nazmy Armya. 
